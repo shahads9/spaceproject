@@ -1,0 +1,35 @@
+
+body {
+	
+  background-image:url('space.jpg');	
+    
+  }
+
+
+
+.city{color:rgb(253, 253, 253)
+    
+
+}
+input[type=text] {
+    width: 20%;
+    border: 2px solid rgb(193, 18, 18);
+    border-radius: 4px;
+  }
+  input[type=text]:focus {
+    background-color: rgb(0, 142, 185);
+
+
+}
+ 
+#email {
+  width: 20%;
+  border: 2px solid rgb(193, 18, 18);
+  border-radius: 4px;
+}
+input[type=email]:focus {
+  background-color: rgb(0, 142, 185);
+
+
+}
+  

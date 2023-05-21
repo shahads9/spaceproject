@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>the space world </title>
+</head>
+<body>
+    <div class="header2">
+        <nav id="navbar">
+            <ul id="menu2">
+                <li><a href="Galaxy.html">Galaxy</a> </li>
+                <li><a href="Astronauts.html">Astronauts </a></li>
+                <li><a href="planets last edit.html">planets </a></li>
+                <li><a href="group.html">group</a></li>
+                <li><a href="pro.html">Questions</a></li>
+              
+               
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1> floating in Space</h1>
+
+        </div>
+       
+    </div>
+    
+
+    <section class="showcase">
+        <header>
+        <h2 class="logo">space</h2>
+        
+        </header>
+       
+        <video src="Floating In Space.mp4" type="video/mp4"muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+        
+        <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring the world </h3>
+        <a href="https://www.youtube.com/watch?v=JSAj91cU9-8">Explore</a>
+        <p> Space exploration allows us to prove or disprove scientific theories developed on Earth. 
+            Studying the solar system, for example, 
+            has brought us insights into such phenomena as gravity, the magnetosphere, the atmosphere,
+             fluid dynamics and the geological evolution of other planet</p>
+
+        </div>
+        
+        </section>
+       
+      
+    <script>
+        var navbar=document.getElementById("navbar")
+        var menu2=document.getElementById("menu2")
+        window.onscroll=function(){
+            if(window.pageYOffset>=menu2.offsetTop){
+                navbar.classList.add("sticky");
+
+            }
+           else{
+            navbar.classList.remove("sticky");
+           }
+        }
+        
+    </script>  
+</body>
+</html>
